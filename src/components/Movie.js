@@ -50,7 +50,9 @@ export default function Movie({ id, year, title, summary, poster, genres }) {
             })}
           </ul>
           <p className="movie_summary">
-            {summary.length > 200 ? summary.slice(0, 200) : summary}
+            {summary.length > 200
+              ? `${summary.slice(0, 200)} ...더보기`
+              : summary}
           </p>
         </div>
       </Link>
