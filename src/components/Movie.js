@@ -1,9 +1,9 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Movie.scss";
 
 export default function Movie({ id, year, title, summary, poster, genres }) {
-  const [showAll, setShowAll] = useState(false);
+  // const [showAll, setShowAll] = useState(false);
 
   // const showAllSummary = () => {
   //   setShowAll(!showAll);
